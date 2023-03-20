@@ -1,0 +1,102 @@
+div {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0 16px;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 41px;
+    letter-spacing: 0.41px;
+    margin: 128px 16px 0 0;
+}
+
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.41px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 12px;
+}
+
+input {
+    background: #F2F2F7;
+    border-radius: 6px;
+    border: none;
+    display: block;
+    Width: calc(100% - 32px);
+    Height: 48px;
+    margin: 0 auto;
+}
+
+.input-email {
+    margin-top: 102px;
+}
+
+.input-password {
+    margin-top: 12px;
+}
+
+input::placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.41px;
+    color: #929292;
+    padding: 14px 13px;
+}
+
+.link-password {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.41px;
+    color: #007AFF98;
+    margin-left: 205px;
+    Width: 123px;
+    Height: 22px;
+    display: block;
+    margin-top: 17px;
+}
+
+button {
+    display: block;
+    Width: 343px;
+    Height: 48px;
+    Left: 16px;
+    background: rgba(0, 0, 0, 0.94);
+    border-radius: 10px;
+    margin-top: 20px;
+    color: whitesmoke;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.41px;
+}
+
+.link-accout {
+    margin: 217px 75px 39px 75px;
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.51);
+    width: 225px;
+    height: 19px;
+    left: 75px;
+    top: 754px;
+}
+
+strong {
+    color: #007AFF;
+}
